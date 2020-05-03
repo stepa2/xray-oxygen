@@ -187,9 +187,9 @@
       <Project>{c4defc31-a910-4339-99b3-6c410dc19ad0}</Project>
       <Name>xrManagedCoreLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\xrSdkControls\xrSDKControls.csproj">
+    <ProjectReference Include="..\xrSdkControls\xrSdkControls.csproj">
       <Project>{e9dc16a3-d0fa-4924-af6e-f6fdf3ea0661}</Project>
-      <Name>xrSDKControls</Name>
+      <Name>xrSdkControls</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

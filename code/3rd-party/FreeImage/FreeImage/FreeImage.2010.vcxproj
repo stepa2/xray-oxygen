@@ -267,6 +267,29 @@
     <None Include="Todo.txt" />
     <None Include="Whatsnew.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Source\LibJPEG\LibJPEG.2008.vcxproj">
+      <Project>{5e1d4e5f-e10c-4ba3-b663-f33014fd21d9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Source\LibJXR\LibJXR.2008.vcxproj">
+      <Project>{244455e0-5f25-4451-9540-f317883e52a8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Source\LibOpenJPEG\LibOpenJPEG.2010.vcxproj">
+      <Project>{e3536c28-a7f1-4b53-8e52-7d2232f9e098}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Source\LibPNG\LibPNG.2008.vcxproj">
+      <Project>{7db10b50-ce00-4d7a-b322-6824f05d2fcb}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Source\LibRawLite\LibRawLite.2008.vcxproj">
+      <Project>{07f662c1-1323-42ab-b6af-fbfd34a7437a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Source\LibTIFF4\LibTIFF4.2008.vcxproj">
+      <Project>{ec085cbd-e9c3-477f-9a97-cb9d5da30e27}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Source\LibWebP\LibWebP.2008.vcxproj">
+      <Project>{097d9f6c-fd0e-4cbc-9676-009012aaeca8}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

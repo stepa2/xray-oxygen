@@ -67,6 +67,7 @@
       <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FloatingPointModel>Strict</FloatingPointModel>
     </ClCompile>
     <Lib>
       <OutputFile>$(OutDir)source.lib</OutputFile>

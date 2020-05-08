@@ -52,6 +52,17 @@ VTune Amplifier Results
 /code/editors/xrSdkControls/obj/
 /code/editors/.vs/
 
+/code/utils/xrDXT/.vs/
+
 /code/Setup/Output
-/code/SDK/binaries/x64/ode.dll
+
 Debug
+
+/code/SDK/binaries/x64/ode.dll
+
+/code/SDK/binaries/x64/FreeImage.dll
+/code/SDK/libraries/x64/FreeImage.lib
+/code/SDK/libraries/x64/LWO.lib
+/code/SDK/binaries/x64/nvtt.dll
+/code/SDK/libraries/x64/nvapi.lib
+/code/SDK/libraries/x64/source.lib

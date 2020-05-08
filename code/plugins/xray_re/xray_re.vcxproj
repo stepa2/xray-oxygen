@@ -430,6 +430,9 @@
     <ClInclude Include="xr_scene_ways.h" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\3rd-party\nvtt\vc12\nvtt\nvtt.vcxproj">
+      <Project>{1aeb7681-57d8-48ee-813d-5c41cc38b647}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\3rd party\nvtt\bld-vs2015\nvtt.vcxproj">
       <Project>{938e23b7-2436-4ecc-b960-6894655447f1}</Project>
     </ProjectReference>

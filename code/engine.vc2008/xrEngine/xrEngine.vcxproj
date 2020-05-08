@@ -131,7 +131,7 @@
       <Culture>0x0422</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>Theora.lib;Gdiplus.lib;Psapi.lib;vfw32.lib;DiscordRichPresense.lib;tbb.lib;Winmm.lib;XInput_Private.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Gdiplus.lib;Psapi.lib;vfw32.lib;tbb.lib;Winmm.lib;XInput_Private.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>NotSet</ShowProgress>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreSpecificDefaultLibraries>libcmtd;libc;libcd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -193,7 +193,7 @@
       <Culture>0x0422</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>Theora.lib;Gdiplus.lib;Psapi.lib;vfw32.lib;DiscordRichPresense.lib;tbb.lib;Winmm.lib;XInput_Private.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Gdiplus.lib;Psapi.lib;vfw32.lib;tbb.lib;Winmm.lib;XInput_Private.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreSpecificDefaultLibraries>libcmtd;libc;libcd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -260,7 +260,7 @@
       <Culture>0x0422</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>Theora.lib;Gdiplus.lib;Psapi.lib;vfw32.lib;DiscordRichPresense.lib;tbb.lib;Winmm.lib;XInput_Private.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Gdiplus.lib;Psapi.lib;vfw32.lib;tbb.lib;Winmm.lib;XInput_Private.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <IgnoreSpecificDefaultLibraries>libcmtd;libc;libcd;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -515,6 +515,12 @@
     <None Include="TODO.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\3rd-party\DiscordRPC\DiscordRichPresense.vcxproj">
+      <Project>{a5e0ec2a-4783-4a53-ae1e-228464fc8f69}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SDK\sources\Theora.vcxproj">
+      <Project>{3e53f102-980e-43d2-a181-0ee92a6bad54}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\xrSound\xrSound.vcxproj">
       <Project>{ccca7859-eb86-493e-9b53-c4235f45b3c5}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

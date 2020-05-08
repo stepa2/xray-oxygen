@@ -133,7 +133,7 @@
       <DataExecutionPrevention>
       </DataExecutionPrevention>
       <ImportLibrary>$(xrLib)$(TargetName).lib</ImportLibrary>
-      <AdditionalDependencies>xrCDB.lib;cuda.lib;cudart_static.lib;optix_prime.1.lib;Calc.lib;CLW.lib;RadeonRays.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>cuda.lib;cudart_static.lib;optix_prime.1.lib;Calc.lib;CLW.lib;RadeonRays.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalOptions>$(IntermediateOutputPath)LightPoint.cu.obj %(AdditionalOptions)</AdditionalOptions>
       <LargeAddressAware>true</LargeAddressAware>
     </Link>
@@ -300,6 +300,9 @@
     <ClCompile Include="recalculation.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\engine.vc2008\xrCDB\xrCDB.vcxproj">
+      <Project>{a19b1df2-82ec-4364-8bdf-85d13a1c89b5}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\xrDXT\DXT.vcxproj">
       <Project>{ebf9b543-0830-4866-9b48-dc0740e87e8a}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

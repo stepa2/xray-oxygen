@@ -183,13 +183,13 @@
       <Project>{ace4da6a-fd27-4006-94ba-e0132a51930e}</Project>
       <Name>xrManagedECoreLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\engine.vc2008\xrManagedLib\xrManagedLib.vcxproj">
+    <ProjectReference Include="..\..\xrManagedLib\xrManagedLib.vcxproj">
       <Project>{c4defc31-a910-4339-99b3-6c410dc19ad0}</Project>
       <Name>xrManagedCoreLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\xrSdkControls\xrSDKControls.csproj">
+    <ProjectReference Include="..\xrSdkControls\xrSdkControls.csproj">
       <Project>{e9dc16a3-d0fa-4924-af6e-f6fdf3ea0661}</Project>
-      <Name>xrSDKControls</Name>
+      <Name>xrSdkControls</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

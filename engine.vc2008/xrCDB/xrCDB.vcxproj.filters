@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{12e54459-b724-4b28-a507-d6ad9575f736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{3a9a52a3-2965-4ed7-a3ba-d24d195d41ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="xrCDB.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="xrCDB_box.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="xrCDB_Collector.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="xrCDB_frustum.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="xrCDB_ray.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="ISpatial.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ISpatial_q_box.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ISpatial_q_frustum.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ISpatial_q_ray.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ISpatial_verify.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="xr_area.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="xr_area_query.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="xr_area_raypick.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="xrXRC.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="xrCDB_Model.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="xrCDB_Tree.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Frustum.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="xrCDB.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="ISpatial.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="xr_area.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="xr_collide_defs.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="xrXRC.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_intersect.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="xrCDB_Tree.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="xrCDB_Model.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

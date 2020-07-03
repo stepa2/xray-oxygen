@@ -28,6 +28,7 @@
 *.db-wal
 *.bat
 
+obj/
 binaries/
 intermediatex64/
 librariesx64/
